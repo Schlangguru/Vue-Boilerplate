@@ -6,6 +6,20 @@ const DIST_DIR = 'dist';
 const isTest = process.env.NODE_ENV === 'test';
 const isProduction = process.env.NODE_ENV === 'production';
 
+
+/*
+ |--------------------------------------------------------------------------
+ | Electron - Relative Base Path
+ |--------------------------------------------------------------------------
+ |
+ | Since electron uses no webserver that serves the resources
+ | on an absolute path from the "/dist" directory, we have to configure
+ | the resource-root to be "/dist/..".
+ | (Mix assumes Public Path to bie "/dist")
+ |
+ */
+mix.config.resourceRoot = `../`;
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management

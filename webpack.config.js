@@ -62,6 +62,18 @@ module.exports.output = Mix.output();
 
 /*
  |--------------------------------------------------------------------------
+ | Target
+ |--------------------------------------------------------------------------
+ |
+ | The target 'electron' allows us to use 'require('<node_module>')'.
+ | Without this target Webpack would try to bundle those standard node modules.
+ |
+ */
+
+module.exports.target = 'electron';
+
+/*
+ |--------------------------------------------------------------------------
  | Rules
  |--------------------------------------------------------------------------
  |

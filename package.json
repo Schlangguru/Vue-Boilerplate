@@ -1,24 +1,27 @@
 {
-  "name": "Vue-Boilerplate",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
-    "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
-    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
-    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
-  },
-  "author": "Schlangguru",
-  "license": "MIT",
-  "devDependencies": {
-    "laravel-mix": "^0.8.1"
-  },
-  "dependencies": {
-    "bootstrap-sass": "^3.3.7",
-    "jquery": "^3.1.1",
-    "vue": "^2.1.10",
-    "vue-router": "^2.2.1",
-    "vuex": "^2.1.2"
-  }
+    "name": "Vue-Boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
+        "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
+        "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+        "production": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+        "electron": "electron ./electron.js"
+    },
+    "author": "Schlangguru",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^1.4.15",
+        "electron-reload": "^1.1.0",
+        "laravel-mix": "^0.8.1"
+    },
+    "dependencies": {
+        "bootstrap-sass": "^3.3.7",
+        "jquery": "^3.1.1",
+        "vue": "^2.1.10",
+        "vue-router": "^2.2.1",
+        "vuex": "^2.1.2"
+    }
 }
