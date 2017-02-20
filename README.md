@@ -6,7 +6,8 @@ Basic Start Template for Vue.js Single Page Apps with:
 - VUEX
 - Vue-Router
 
-Tooling is built on [Laravel-Mix](https://github.com/JeffreyWay/laravel-mix) as an easy to use "frontend" for Webpack
+Tooling is built on [Laravel-Mix](https://github.com/JeffreyWay/laravel-mix) as an easy to use "frontend" for Webpack.  
+**Checkout the branch "Electron" For the same Boilerplate that runs within Electron.**
 
 ## Usage
 ### Install
