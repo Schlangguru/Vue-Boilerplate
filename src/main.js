@@ -9,12 +9,13 @@ require('bootstrap-sass');
 ////////////////////////
 // Main App Component //
 ////////////////////////
+import store from './Store';
 import router from './Router';
 import App from './App';
 
 new Vue({
   router,
-  // store,
+  store,
   el: '#app',
   render: h => h(App)
 });
