@@ -35,3 +35,10 @@ npm run hot
 npm run production
 
 ```
+
+### Start Electron
+```
+# Start Electron with the built app
+npm run electron
+```
+The Electron instance has built-in live-relaod enabled via the plugin [electron-reload](https://www.npmjs.com/package/electron-reload). So you can simply use `npm run watch` & `npm run electron` to rebuild the app and reload electron automatically everytime a file changes.
