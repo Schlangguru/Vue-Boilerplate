@@ -9,7 +9,7 @@
     "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
     "production": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "electron": "electron ./electron.js",
-    "packager": "electron-packager ./ Vue-Boilerplate --platform=linux --arch=x64 --out=app --ignore=src/ --overwrite"
+    "packager": "node electron.packager.js"
   },
   "author": "Schlangguru",
   "license": "MIT",
